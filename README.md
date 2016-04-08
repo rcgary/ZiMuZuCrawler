@@ -15,9 +15,7 @@ Before start:
 
 	pip3 install requests
 
-4. Create a file named ZiMuZuHistory under the same directory of ZiMuZuCrawler.py, to allow it to store the shows downloaded (only the latest version will be recorded).
-
-5. Change the 'account' and 'password' in the ZiMuZuCrawler.py to your own.
+4. Change the 'account' and 'password' in the ZiMuZuCrawler.py to your own.
 
 
 Recommendations:
