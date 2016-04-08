@@ -29,7 +29,7 @@ if loginInfo['status'] == 1:
 
 today = int(str(datetime.date.today()).split('-')[2])
 
-file_read = open('/Users/donggeliu/kit/ZiMuZu/zimuzu', 'r', encoding="utf-8")
+file_read = open('/Users/donggeliu/kit/ZiMuZu/ZiMuZuHistory', 'r', encoding="utf-8")
 lines = file_read.readlines()
 file_read.close()
 
@@ -137,7 +137,7 @@ for m in range(0, len(targetShows)):
 
 
 
-file_write = open('/Users/donggeliu/kit/ZiMuZu/zimuzu', 'w', encoding="utf-8")
+file_write = open('/Users/donggeliu/kit/ZiMuZu/ZiMuZuHistory', 'w', encoding="utf-8")
 file_write.writelines(lines)
 file_write.close()
 print("Quit Successfully")
