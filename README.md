@@ -3,11 +3,21 @@ A web crawler for you to automatically check-in and download latest TV series fr
 
 Before start:
 
-1. Check if you have Python 3 installed. 
+1. Check if you have Python 3 installed. If not, you can use homebrew to install it:
 
-2. Create a file named ZiMuZuHistory under the same directory of ZiMuZuCrawler.py, to allow it to store the shows downloaded (only the latest version will be recorded).
+brew intall Python3
 
-3. Change the 'account' and 'password' in the ZiMuZuCrawler.py to your own.
+2. Check if you have BeautifulSoup4 installed. If not, you can use pip3 to install it:
+
+pip3 install beautifulsoup4
+
+3. Check if you have requests installed. If not, you can use pip3 to install it:
+
+pip3 install requests
+
+4. Create a file named ZiMuZuHistory under the same directory of ZiMuZuCrawler.py, to allow it to store the shows downloaded (only the latest version will be recorded).
+
+5. Change the 'account' and 'password' in the ZiMuZuCrawler.py to your own.
 
 
 Recommendations:
